@@ -26,10 +26,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-a {
-  color: inherit;
+  text-align: center;
 }
 
 img,
@@ -39,6 +36,73 @@ video {
   vertical-align: text-top;
 }
 
+header {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  margin: 15px;
+}
+
+h1 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer {
+  background-color: black;
+  text-align: left;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  line-height: 1.2;
+  color: white;
+  padding: 30px 25px;
+}
+
+a {
+  color: inherit;
+  margin: 13px;
+}
+
+p {
+  margin: 4px;
+}
+
+figure {
+  background-color: white;
+}
+
+.Name {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.secondPartie {
+  background-color: #ebede8;
+}
+
+.redTitle {
+  background-color: red;
+  border-radius: 25px;
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 15px 160px;
+}
 /* ====================================
 // base rules
 // ==================================== */
