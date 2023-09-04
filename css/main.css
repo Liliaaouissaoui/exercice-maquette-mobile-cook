@@ -39,12 +39,14 @@ video {
 header {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 16px;
-  margin: 15px;
+  font-weight: 500;
+  margin: 10px;
+  padding: 10px;
 }
 
 h1 {
   font-family: 'Sorts Mill Goudy', serif;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.2;
 }
 
@@ -53,12 +55,25 @@ h2 {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
+  text-align: left;
+  margin: 40px 5px 5px 5px; 
+  padding: 20px 5px;
+
 }
 
 h3 {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 20px;
   line-height: 1.2;
+}
+
+.LittleText {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.fold-image {
+  border-top: 3px solid lightgrey;
 }
 
 footer {
@@ -74,6 +89,7 @@ footer {
 a {
   color: inherit;
   margin: 13px;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 p {
@@ -82,12 +98,32 @@ p {
 
 figure {
   background-color: white;
+  border: 1px solid grey;
+  padding: 0px 0px 10px 0px;
+  margin: 20px;
+  text-align: center;
+  border: 3px solid lightgrey; 
+}
+
+/* Cible l'image à l'intérieur de la figure */
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Cible le <figcaption> à l'intérieur de la figure */
+figure figcaption {
+  font-size: 20px;
+  font-family:'Libre Franklin', sans-serif;
+  margin: 20px 100px;
+  font-weight: 550;
 }
 
 .Name {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px;
 }
 
 .secondPartie {
@@ -99,9 +135,10 @@ figure {
   border-radius: 25px;
   color: white;
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 11px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: bold;
   margin: 15px 160px;
+  padding: 2px;
 }
 /* ====================================
 // base rules
